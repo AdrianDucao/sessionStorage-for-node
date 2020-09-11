@@ -9,7 +9,7 @@ const sessionStorage = require('sessionstorage-for-node');
 
 sessionStorage.setItem('id', 'value');
 
-console.log('product: ', sessionStorage.getItem('foo'));
+console.log('product: ', sessionStorage.getItem('id'));
 
 sessionStorage.removeItem('id', 'value');
 
