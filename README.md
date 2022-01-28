@@ -24,10 +24,10 @@ console.log('product: ', sessionStorage.getItem('id'));
 ```
 
 ## Removing Saved Data
-``javascript
+```javascript
 sessionStorage.removeItem('id', 'value');
-
 ```
+
 ## Remove all saved data
 ```javascript
 sessionStorage.clear();
