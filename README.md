@@ -8,7 +8,7 @@ get from npm
 $ npm i sessionstorage-for-nodejs
 ```
 
-## import
+## Adding module
 ```javascript
 const sessionStorage = require('sessionstorage-for-node');
 ```
