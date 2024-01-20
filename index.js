@@ -5,7 +5,7 @@ const sessionStorage = {
   getItem: (key) => _sessionStorage[key],
   removeItem: (key) => delete _sessionStorage[key],
   length: () => {
-    return JSON.stringify(_sessionStorage).length
+    return Object.keys(_sessionStorage).length
   },
   key: (num) => {
     return _sessionStorage[Object.keys(_sessionStorage).at(num)]
